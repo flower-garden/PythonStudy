@@ -20,3 +20,4 @@ print(Name2)
 with open('Name.csv', 'w', newline='\n') as f:
     write = csv.writer(f)
     write.writerows(Name2)
+  
